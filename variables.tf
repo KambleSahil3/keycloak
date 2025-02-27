@@ -20,7 +20,7 @@ variable "realm_role" {
 
 variable "root_url" {
   type = string
-  default = "http://test-keyclaok-alb-426166735.ap-south-1.elb.amazonaws.com/"
+  default = "http://localhost:8080/*"
 }
 
 variable "redirect_url" {
