@@ -1,6 +1,6 @@
 variable "realm" {
   type = string
-  default = "credebl_realm"
+  default = "credebl-platform"
 }
 
 variable "access_token_lifespan" {
@@ -36,4 +36,9 @@ variable "username" {
 variable "password" {
   type = string
   default = "admin"
+}
+
+variable "keycloak_url" {
+  type    = string
+  default = "http://localhost:8080"
 }
