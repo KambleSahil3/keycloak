@@ -3,6 +3,6 @@ provider "keycloak" {
   realm         = "master"
   username      = var.username
   password      = var.password
-  url = var.keycloak_url
+  url           = var.root_url
 
 }

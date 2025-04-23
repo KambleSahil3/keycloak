@@ -20,7 +20,7 @@ variable "realm_role" {
 
 variable "root_url" {
   type = string
-  default = "http://localhost:8080/*"
+  default = "http://localhost:8080"
 }
 
 variable "redirect_url" {
@@ -36,9 +36,4 @@ variable "username" {
 variable "password" {
   type = string
   default = "admin"
-}
-
-variable "keycloak_url" {
-  type    = string
-  default = "http://localhost:8080"
 }
